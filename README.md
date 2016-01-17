@@ -12,7 +12,7 @@ list of stuff I install.
 
 jack2  // for multi threading
 
-qjackctl 3.9 //for slackware qt4
+qjackctl 0.3.11 //for slackware qt4
 
 set_rlimits // note my example
 
