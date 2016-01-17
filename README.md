@@ -9,13 +9,12 @@ It WELL BREAK all you newer programs that build against qt4 and qt5.
 so get the qjacktcl from 14.0 from here 
 list of stuff I install.
 
-opus
 
 jack2  // for multi threading
 
 qjackctl 3.9 //for slackware qt4
 
-set_rlimits // not my example
+set_rlimits // note my example
 
 there are many other programs you can
 install but these are the base.

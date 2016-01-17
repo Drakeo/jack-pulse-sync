@@ -1,0 +1,40 @@
+ ok you have at least installed these basic programs.
+ and now get slackware 14.2 pulseaudio and recompile it
+ and you want to recompile alsa-plugins all from slackware 
+ repo. We need those built against our new libraries.
+ 
+ first we want to set up set_rlimits
+ it is located in your /etc/set_rlimits.conf
+ note my set_rlimits.conf-example.in example
+ 
+ In kde you can edit your program qjackctl to start
+ 
+ set_rlimits -r qjackctl
+ 
+note the screen shot Kde-Qjackctl-set_rlimits.png 
+in examples
+
+lets start the program qjackctl  
+ then click Setup
+ 
+
+SETTINGS
+you can use the screen shots from examples.
+first is settings this is my default set up for my head phones.
+the device you select is your base device. I use input and out put
+to default. if I wanted my out put to be another device then so be it. 
+
+OPTIONS 
+Optins does all the work.
+pulse-jack-pre-start.sh
+pulse-jack-post-start.sh
+pulse-jack-pre-stop.sh
+pulse-jack-post-stop.sh
+
+Please look at the Qjackctl-Options.png
+in examples. 
+
+Now we need the custom asoundrc in my examples. you may copy it to your ~/home folder and name it
+.asoundrc note the DOT
+
+ok if everthing is done click start
