@@ -23,7 +23,7 @@ The four scripts can beplaced in
 /usr/local/bin
 
 or in any local folder.
-make sure they are executable chmod x+ name
+make sure they are executable chmod u+x name
 after you have installed the programs
 you want to look at my examples of set_rlimits.
 works prety good with the slackware stock kernel.
