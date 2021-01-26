@@ -1,4 +1,4 @@
-# jack-pulse-sink
+# jack-pulse-sync
 scripts to sink pulseaudio and jack2 qjackctl
 This is a set of scripts that sink pulseaudio and jack
 used with qjackctl for slackware  14.2 14.2+ current
