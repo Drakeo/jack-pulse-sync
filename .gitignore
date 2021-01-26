@@ -1,2 +1,10 @@
-.directory
-
+*.tgz
+*.tar.xz
+*.tar.gz
+*.txz
+*.bz2
+*.zip.directory
+pulseaudio
+alsa-plugins
+pulseaudio/*
+alsa-plugins/*

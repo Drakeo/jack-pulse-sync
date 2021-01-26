@@ -1,41 +1,37 @@
 # jack-pulse-sink
 scripts to sink pulseaudio and jack2 qjackctl
 This is a set of scripts that sink pulseaudio and jack
-used with qjackctl for slackware 14.1 14.2
+used with qjackctl for slackware  14.2 14.2+ current
 
 Do not install the
 qjackctl from 14.1 it was updated  to build with qt5.
 It WELL BREAK all you newer programs that build against qt4 and qt5.
 list of stuff I install.
-qjackctl for 14.1 and 14.2 build qjacktcl 0.40
 
-qjackctl for alien bob ktown qjackctl-qt5 0.41
+For Slackware-14.2 and 14.2+ current
+run as root
+sh jack-pulse-build.Slackbuild.sh
+will detect your slackware version and rebuild 
+alsa-plugins and pulseaudio
 
-seems people have no clue how ldconfig works in slackware.
-
-so had to do it this way. 14.1 will be under updates for many years to come
-
-and 14.2 is coming out and will be under updates for even longer.
-
-God nows why some one at SlackBuilds thinks we need to spend 2 hours compiling qt5
  
 just to break our system. It is Nuts. 
 
 
 jack2  // for multi threading
+will detect your slackware version 
+compile 14.2 qt4 or 14.2+ 15.0 current qt5
 
 qjackctl 0.4.0 //for slackware 14.0 14.1 14.2 qt4
+qjackctl 0.9.0 //for slackware current 15.0 qt5
 
 set_rlimits // note my example
+set_rlimits already in menu now
+no need to edit
 
 there are many other programs you can
 install but these are the base.
 
-The four scripts can beplaced in
-/usr/local/bin
+The four scripts installed in
+/usr/share/qjackctl/pulse-jack-scripts/
 
-or in any local folder.
-make sure they are executable chmod u+x name
-after you have installed the programs
-you want to look at my examples of set_rlimits.
-works prety good with the slackware stock kernel.
