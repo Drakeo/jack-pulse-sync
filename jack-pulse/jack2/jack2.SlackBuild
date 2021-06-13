@@ -37,11 +37,11 @@ SLACKVERS=$(cat /etc/slackware-version)
 if [ "$SLACKVERS" = "Slackware 14.2" ]; then
 VERSION=${VERSION:-1.9.12}
 elif [ "$SLACKVERS" = "Slackware 14.2+" ]; then
-VERSION=${VERSION:-1.9.14}
+VERSION=${VERSION:-1.9.18}
 elif [ "$SLACKVERS" = "Slackware 15.0" ]; then
-VERSION=${VERSION:-1.9.14}
+VERSION=${VERSION:-1.9.18}
 else
-VERSION=${VERSION:-1.9.14}
+VERSION=${VERSION:-1.9.18}
 fi
 
 if [ -z "$ARCH" ]; then
